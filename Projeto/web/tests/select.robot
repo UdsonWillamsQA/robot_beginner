@@ -15,4 +15,4 @@ Selecionar por valor e validar pelo texto
     Go To                           ${url}/dropdown
     Select From List By Value       id:dropdown                 6
     ${selected} =                   Get Selected List Label     id:dropdown
-    Should Be Equal                 ${selected}                 Loki
+    Should Be Equal                 ${selected}                 Loki 
